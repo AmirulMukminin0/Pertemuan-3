@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Client Side-Static (Layout)</title>
+    <style>
+      body {
+        background-color: #04293A;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="py-3">
+      <div class="container-fluid px-4 px-lg-4 my-2">
+        <div class="text-center text-white">
+          <h1 class="display-5 fw-border fs-3">Nonton Film Horror Indonesia Favorit</h1>
+          <h6>Tonton Film Horror Favoritmu Hanya Disini!!</h6>
+        </div>
+      </div>
+    </header>
+    
+    <div class="container">
+      <div class="row py-5">
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/thumb/e/e1/Pengabdi_Setan_poster.jpg/220px-Pengabdi_Setan_poster.jpg" class="card-img-top" alt="" style="width: 100%; height: 300pt;" class="hover-shadow" />
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Pengabdi Setan</h5>
+              <p class="card-text">
+                2017
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Pengabdi Setan adalah film horor Indonesia yang dirilis pada 28 September 2017 yang ditulis dan disutradarai oleh Joko Anwar. Film ini remake dari film berjudul sama di tahun 1980.</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>      
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Danur_poster.jpg/220px-Danur_poster.jpg" class="card-img-top" alt="" style="width: 100%; height: 300pt;" class="hover-shadow" />
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Danur</h5>
+              <p class="card-text">
+                2017
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Film ini diangkat dari buku karya Risa Saraswati, Gerbang Dialog Danur yang ditulis berdasarkan pengalamannya sendiri sebagai seorang gadis indigo. Film ini dirilis pada 30 Maret 2017.</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Danur_2_-_Maddah_Poster.jpg/220px-Danur_2_-_Maddah_Poster.jpg" class="card-img-top" alt="" style="width: 100%; height: 300pt;" class="hover-shadow" />
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Danur 2 : Maddah</h5>
+              <p class="card-text">
+                2018
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Danur 2: Maddah adalah film hantu Indonesia yang dirilis pada 28 Maret 2018. Film ini merupakan sekuel dari film sebelumnya, Danur. Film ini diangkat dari buku karya Risa Saraswati, Maddah.</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="card-img-top"
+              alt=""
+              style="width: 100%; height: 300pt;" class="hover-shadow"/>
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Asih</h5>
+              <p class="card-text">
+                2018
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Asih adalah film horor Indonesia yang dirilis pada 11 Oktober 2018 disutradarai oleh Awi Suryadi dan diproduksi oleh MD Pictures. Film tersebut adalah film spin off dari film Danur.</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/thumb/9/9a/Danur_3_Sunyaruri.jpg/220px-Danur_3_Sunyaruri.jpg" class="card-img-top" alt="" style="width: 100%; height: 300pt;" class="hover-shadow" />
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Danur 3 : Sunyaruri</h5>
+              <p class="card-text">
+                2019
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Danur 3: Sunyaruri adalah sebuah film hantu Indonesia yang dirilis pada 26 September 2019 disutradarai oleh Awi Suryadi. Film tersebut adalah prekuel dari Danur dan Danur 2: Maddah. Film tersebut berdasarkan pada novel Sunyaruri karya Risa Saraswati.</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Impetigore.jpg/220px-Impetigore.jpg" class="card-img-top" alt="" style="width: 100%; height: 300pt;" class="hover-shadow" />
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Perempuan Tanah Jahanam</h5>
+              <p class="card-text">
+                2019
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Perempuan Tanah Jahanam adalah film horor Indonesia yang dirilis pada 17 Oktober 2019 disutradarai dan ditulis oleh Joko Anwar. Karakter mistisnya, dikuatkan oleh ekspresinya yang dingin dan tatapannya yang tak ramah. </p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="card-img-top"
+              alt=""
+              style="width: 100%; height: 300pt;" class="hover-shadow"/>
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Makmum</h5>
+              <p class="card-text">
+                2019
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Makmum adalah sebuah film hantu Indonesia yang diangkat dari film pendek peraih berbagai penghargaan Makmum karya Riza Pahlevi dan dirilis pada 15 Agustus 2019. Disutradarai oleh Hadrah Daeng Ratu dan diproduseri oleh Dheeraj Kalwani. </p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/id/a/a1/Asih_2_Poster.jpeg" class="card-img-top" alt="" style="width: 100%; height: 300pt;" class="hover-shadow" />
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Asih 2</h5>
+              <p class="card-text">
+                2020
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Asih 2 adalah film horor Indonesia tahun 2020 produksi MD Pictures yang disutradarai oleh Rizal Mantovani. Film ini menjadi film Indonesia pertama yang dirilis pada masa pandemi COVID-19 di bioskop mulai 24 Desember 2020. Tayang di Disney+ Hotstar 2 April 2021.</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="card-img-top"
+              alt=""
+              style="width: 100%; height: 300pt;" class="hover-shadow"/>
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">13+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Tarian Lengger Maut</h5>
+              <p class="card-text">
+                2021
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Tarian Lengger Maut (sebelumnya berjudul Detak) adalah sebuah film thriller horor Indonesia tahun 2021 mengusung tema budaya tari Lengger yang berasal dari Banyumas. Film ini disutradarai oleh Yongki Ongestu</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column col col-sm-1 col-md-2 col-lg-3 col-xxl-3 hover-shadow">
+          <div class="card">
+            <img src="https://asset.kompas.com/crops/ch4iolrA2Bee2WCyKC5xHnZeNko=/0x0:350x467/300x400/data/photo/2022/01/11/61dd69d460ef1.jpeg" class="card-img-top" alt="" style="width: 100%; height: 300pt;" class="hover-shadow" />
+            <span class="position-absolute top 0 badge" style="background-color: cadetblue">17+</span>
+            <div class="container py-3">
+              <h5 class="card-title">Teluh</h5>
+              <p class="card-text">
+                2022
+                <button class="btn" style="float: right; font-size: medium"><i class="bi bi-pencil-square" style="color:white;"></i>
+                  <i class="bi bi-trash" style="color:white;"></i></button>
+              </p>
+              <p class="card-title">Film ini berlatar tahun 1990an di sebuah wilayah di tanah Jawa. Teluh mengisahkan balas dendam atas rasa sakit hati yang paling puncak.  LSF mengklasifikasikan film ini untuk penonton usia 17 tahun ke atas.</p>
+              <p><button class="button">Tonton Sekarang</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
